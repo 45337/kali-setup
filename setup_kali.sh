@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-sudo sed -i 's/us/de/' /etc/default/keyboard
+setxkbmap -layout de
 
 sudo apt update && sudo apt upgrade
 
