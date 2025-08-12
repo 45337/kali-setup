@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 vmware-hgfsclient | while read folder; do
   echo "[i] Mounting ${folder}   (/mnt/hgfs/${folder})"
