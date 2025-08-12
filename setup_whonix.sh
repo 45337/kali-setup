@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 nmcli c modify Wired\ connection\ 1 ipv4.addresses 10.152.152.11/18
 nmcli c modify Wired\ connection\ 1 ipv4.method manual
