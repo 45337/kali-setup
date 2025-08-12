@@ -10,5 +10,4 @@ wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rocky
 
 mv rockyou.txt /usr/share/wordlists/
 
-
 sudo bash ./setup_fileshare.sh
